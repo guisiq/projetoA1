@@ -160,11 +160,6 @@ blockquote{
     background-image: url(/img/papel-envelhecido.jpg);
     opacity:0.5 ;
 }
-blockquote p ,cite{
-    opacity: 1 ;
-    color: #000000 ;
-   /* font-weight: bold; deixa o texto en negrito  */
-}
 cite{
     text-align: right;
 }
@@ -193,3 +188,9 @@ a img{
     color: violet;
 }
 /*-------------------------fim estilo footer-------------------------  */
+
+blockquote p ,cite{
+    opacity: 1 ;
+    color: #000000 ;
+   /* font-weight: bold; deixa o texto en negrito  */
+}
