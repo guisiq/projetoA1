@@ -157,13 +157,17 @@ blockquote{
     margin: 0%;
     width: 30%;
     float: right;
-    background-image: url(/img/papel-envelhecido.jpg);
-    opacity:0.5 ;
+    background-image: url(/img/papel-envelhecido_2.png);
 }
 cite{
     text-align: right;
 }
-
+blockquote p ,cite{
+    display: block;
+    opacity: 1;
+    color: #000000 ;
+   /* font-weight: bold; deixa o texto en negrito  */
+}
 /*------------------------- fim estilo das citacoes-------------------------  */ 
 /*------------------------- estilo footer-------------------------  */
 footer{
@@ -189,8 +193,3 @@ a img{
 }
 /*-------------------------fim estilo footer-------------------------  */
 
-blockquote p ,cite{
-    opacity: 1 ;
-    color: #000000 ;
-   /* font-weight: bold; deixa o texto en negrito  */
-}
