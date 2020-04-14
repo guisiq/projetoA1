@@ -62,14 +62,14 @@ html, body {
     text-align: justify;
 }
 main{
-    background-image: url(/img/fundo22.jpg);
+    background-image: url(/projetoA1/img/fundo22.jpg);
     padding-top: 1%;
 }
 /*--------------------------fim configuracoes gerais do site--------------------------*/
 
 /*--------------------------estilo do hearder--------------------------*/
 header{
-    background-image: url("/img/Doodle-Art-Kerby-Rosanes-152.jpg");
+    background-image: url(/projetoA1/img/Doodle-Art-Kerby-Rosanes-152.jpg);
 } 
 h1{
         font-size: 500%;
