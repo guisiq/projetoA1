@@ -69,13 +69,13 @@ main{
 
 /*--------------------------estilo do hearder--------------------------*/
 header{
-    background-image: url(/projetoA1/img/doodle-art.jpg);
+    background-image: url(/projetoA1/img/Doodle-Art-Kerby-Rosanes-152.jpg);
 } 
 h1{
         font-size: 500%;
         text-align: center;
         font-style: italic;
-        color: #333;
+        color: rgb(32, 34, 51);
         margin-top:0;
     }
 
@@ -121,7 +121,7 @@ section ul{
 .p1{
     clear: right;
 }
- #pesoaDesenhando{
+ #pesoaDesenhando,#fig_cartum,#fig_abstrado {
      float: left;
      margin: 1%;
      width: 50%;
@@ -130,7 +130,7 @@ section ul{
      margin-bottom:0% ;
  }
  
- #desenhoTecnico{
+ #desenhoTecnico,#fig_realismo{
      float: right;
      margin: 1%;
      width: 50%;
@@ -138,8 +138,12 @@ section ul{
      padding-bottom: 2%;
      margin-bottom:0% ;
  }
+ #fig_realismo,  {
+     width: 60% ;
+ }
  section figure img{
     width: 100%;
+    border-radius: 5px;
 }
  /*------------------------ fim do estilo das sesoes------------------------- */
 /*------------------------- estilo das citacoes-------------------------  */
@@ -173,6 +177,7 @@ blockquote p ,cite{
 footer{
     background-color: #333;
     color: white;
+    clear: both;
 }
 footer p{
     text-align: center;
