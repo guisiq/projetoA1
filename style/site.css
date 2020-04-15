@@ -131,15 +131,15 @@ section ul{
  }
  
  #desenhoTecnico,#fig_realismo{
-     float: right;
+     float: righ git t;
      margin: 1%;
      width: 50%;
      padding-top: 2%;
      padding-bottom: 2%;
      margin-bottom:0% ;
  }
- #fig_realismo,  {
-     width: 60% ;
+ #fig_realismo,{
+     width:60%;
  }
  section figure img{
     width: 100%;
