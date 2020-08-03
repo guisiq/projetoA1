@@ -1,5 +1,5 @@
-
 /*------------------------- estilo da barra de navegacao--------------------------*/
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -7,36 +7,38 @@ nav ul {
     overflow: hidden;
     background-color: rgba(51, 51, 51, 0.9);
 }
-  
+
 nav li {
     float: left;
 }
-  
-nav li a, .dropbtn {
+
+nav li a,
+.dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-  
-nav li a:hover, .dropdown:hover .dropbtn {
+
+nav li a:hover,
+.dropdown:hover .dropbtn {
     background-color: rgba(71, 61, 139, 0.9);
-  }
-  
+}
+
 nav li.dropdown {
     display: inline-block;
-  }
-  
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-  
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -44,7 +46,7 @@ nav li.dropdown {
     display: block;
     text-align: left;
 }
-  
+
 .dropdown-content a:hover {
     background-color: #f1f1f1;
 }
@@ -52,107 +54,140 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
 /*------------------------- fim estilo da barra de navegacao--------------------------------*/
+
+
 /*--------------------------configuracoes gerais do site--------------------------*/
 
-html, body {
+html,
+body {
     margin: 0%;
     padding: 0%;
     border: 0px;
     text-align: justify;
 }
-main{
-    background-image: url(/projetoA1/img/fundo22.jpg);
+
+main {
+    background-image: url(/img/fundo22.jpg);
     padding-top: 1%;
 }
+
+
 /*--------------------------fim configuracoes gerais do site--------------------------*/
 
+
 /*--------------------------estilo do hearder--------------------------*/
-header{
-    background-image: url(/projetoA1/img/Doodle-Art-Kerby-Rosanes-152.jpg);
-} 
-h1{
-        font-size: 500%;
-        text-align: center;
-        font-style: italic;
-        color: rgb(32, 34, 51);
-        margin-top:0;
-    }
+
+header {
+    background-image: url(/img/Doodle-Art-Kerby-Rosanes-152.jpg);
+}
+
+h1 {
+    font-size: 500%;
+    text-align: center;
+    font-style: italic;
+    color: rgb(32, 34, 51);
+    margin-top: 0;
+}
+
 
 /*--------------------------fim estilo do hearder--------------------------*/
+
+
 /*------------------------- estilo das sesoes------------------------- */
-section{
-    background-color:#f1f1f1f1;
+
+section {
+    background-color: #f1f1f1f1;
     margin: 1%;
-    margin-left: 20% ;
-    margin-right: 20% ;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 5px;
     box-shadow: -5px 4px 4px #e0e0e0;
     padding: 1%;
     clear: both;
-    
 }
-section h2{
+
+section h2 {
     color: darkslateblue;
     font-size: 300%;
     line-height: 100%;
     margin: 1%;
-    margin-top:0.2% ;
+    margin-top: 0.2%;
     clear: both;
 }
-section h3{
+
+section h3 {
     clear: both;
 }
-section p{
-     line-height: 150%;
-     margin: 2%;
-     font-size: 125%;
-     clear: none;
-    }
-section ul{
+
+section p {
+    line-height: 150%;
+    margin: 2%;
+    font-size: 125%;
+    clear: none;
+}
+
+section ul {
     list-style-type: none;
 }
-#o_que_e{
+
+#o_que_e {
     margin-top: 0em;
 }
-.p2{
-     clear: left;
-    }
-.p1{
+
+.p2 {
+    clear: left;
+}
+
+.p1 {
     clear: right;
 }
- #pesoaDesenhando,#fig_cartum,#fig_abstrado {
-     float: left;
-     margin: 1%;
-     width: 50%;
-     padding-top: 2%;
-     padding-bottom: 2%;
-     margin-bottom:0% ;
- }
- 
- #desenhoTecnico,#fig_realismo{
-     float: right ;
-     margin: 1%;
-     width: 50%;
-     padding-top: 2%;
-     padding-bottom: 2%;
-     margin-bottom:0% ;
- }
- #fig_realismo,{
-     width:60%;
- }
- section figure img{
+
+#pesoaDesenhando,
+#fig_cartum,
+#fig_abstrado {
+    float: left;
+    margin: 1%;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 0%;
+}
+
+#desenhoTecnico,
+#fig_realismo {
+    float: right;
+    margin: 1%;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 0%;
+}
+
+#fig_realismo {
+    width: 60%;
+}
+
+section figure img {
     width: 100%;
     border-radius: 5px;
 }
- /*------------------------ fim do estilo das sesoes------------------------- */
+
+
+/*------------------------ fim do estilo das sesoes------------------------- */
+
+
 /*------------------------- estilo das citacoes-------------------------  */
-p.pre-citacao{
-    width: 60% ;
+
+p.pre-citacao {
+    width: 60%;
     clear: none;
     float: left;
 }
-blockquote{
+
+blockquote {
     display: block;
     font-size: 80%;
     padding: 2%;
@@ -161,40 +196,54 @@ blockquote{
     margin: 0%;
     width: 30%;
     float: right;
-    background-image: url(/projetoA1/img/papel-envelhecido_2.png);
+    background-image: url(/img/papel-envelhecido_2.png);
 }
-cite{
+
+cite {
     text-align: right;
 }
-blockquote p ,cite{
+
+blockquote p,
+cite {
     display: block;
     opacity: 1;
-    color: #000000 ;
-   /* font-weight: bold; deixa o texto en negrito  */
+    color: #000000;
+    /* font-weight: bold; deixa o texto en negrito  */
 }
-/*------------------------- fim estilo das citacoes-------------------------  */ 
+
+
+/*------------------------- fim estilo das citacoes-------------------------  */
+
+
 /*------------------------- estilo footer-------------------------  */
-footer{
+
+footer {
     background-color: #333;
     color: white;
     clear: both;
 }
-footer p{
+
+footer p {
     text-align: center;
     margin: 0px;
 }
-footer ul{
+
+footer ul {
     text-align: center;
     padding-left: 0pt;
     margin-bottom: 0px;
     margin-top: 0px;
 }
-footer li, a{
+
+footer li,
+a {
     display: inline;
     text-align: center;
 }
-a img{
+
+a img {
     color: violet;
 }
-/*-------------------------fim estilo footer-------------------------  */
 
+
+/*-------------------------fim estilo footer-------------------------  */
