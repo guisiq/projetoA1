@@ -1,0 +1,10 @@
+@media only screen and (max-width: 700px) {
+    section {
+        background-color: #f1f1f1f1;
+        margin: 1%;
+        border-radius: 5px;
+        box-shadow: -5px 4px 4px #e0e0e0;
+        padding: 1%;
+        clear: both;
+    }
+}
