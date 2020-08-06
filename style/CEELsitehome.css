@@ -26,13 +26,16 @@
     nav ul li {
         float: left;
         clear: both;
+        width: 100%;
+    }
+    nav ul li a {
+        text-align: left;
+        width: 100%;
     }
     nav {
         align-items: baseline;
     }
-    nav ul {
-        width: 100%;
-    }
+    nav ul {}
     .dropdown:hover .dropdown-content {
         display: none;
     }
