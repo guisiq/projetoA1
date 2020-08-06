@@ -1,11 +1,17 @@
 /*------------------------- estilo da barra de navegacao--------------------------*/
 
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.9);
+}
+
 nav ul {
     list-style-type: none;
+    padding: 0%;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: rgba(51, 51, 51, 0.9);
 }
 
 nav li {
@@ -48,7 +54,7 @@ nav li.dropdown {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #d8d8d8;
 }
 
 .dropdown:hover .dropdown-content {

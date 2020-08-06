@@ -18,61 +18,62 @@
         <h1>introducao ao desenho </h1>
         <nav>
             <ul class="menu">
-                <li><a href="#o que_e">o que e </a></li>
+                <!-- <li><a href="#o que_e">HOME </a></li> -->
                 <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">tipos de desenhos </a>
+                    <a href="javascript:void(0)" class="dropbtn ativo ">introducao ao desenhado </a>
                     <div class="dropdown-content">
-                        <a href="#desenho_de_memorização">desenho de memorização</a>
-                        <a href="#desenho_de_observação">desenho de observação</a>
-                        <a href="#desenho_criativo">desenho criativo</a>
-                        <a href="#desenho_tecnico">desenho tecnico </a>
+                        <a href="introducaoAoDesenho.html#desenho_de_memorização">o que e </a>
+                        <a href="introducaoAoDesenho.html#desenho_de_observação">tipos de desenho</a>
+                        <a href="introducaoAoDesenho.html#desenho_criativo">estilos mais populares </a>
                     </div>
                 </li>
-                <li class="dropdown">
-
-                    <a href="javascript:void(0)" class="dropbtn">estilos mais populares </a>
-                    <div class="dropdown-content">
-                        <a href="#cartun">cartum</a>
-                        <a href="#realismo">realismo </a>
-                        <a href="#abstrado ">abistrado</a>
-                    </div>
-                </li>
+                <li><a href="geradorDeIdeias.html"> gerador de ideias  </a></li>
+                <li><a href="porQuedesenhar.html"> por que desenhar   </a></li>
+                <li><a href="primeirosPasso.html"> primeiros passo   </a></li>
             </ul>
         </nav>
-
 
 
     </header>
 
     <main>
         <section>
+            <h3>Art Prompts</h3>
+            <p> casso voce esteja sem ideias ou sinprismente queira desenhar algo totalmente aleatorio essta e uma versao de arte promt onde voce escolhe uma categoria ele gera um personagem totalmente aleatorio a parti dessa categorioa seguindo o formato
+
+            </p>
+            <p>especie </p>
+            <p>oculpacao </p>
+            <p> atributo </p>
+            <p>sesorio</p>
+        </section>
+        <section>
             <div class="flex-conteiner-row" id="sugestao-conteiner">
                 <div class="flex-conteiner-colun">
                     <p class="sugestao "> <span class="aaaa"></span> <span class="aaa"></span> <span class="aa"></span> </p>
-                    <button type="button" class=" btn-refaser " onclick="sortearPersonagem()"> refaser sugenstao</button>
+                    <div class="flex-conteiner-row" id="botoes-de-selecao ">
+
+                        <button class="btn-selecao" onclick=" mudarclass(0)">
+                            <div>
+                                <div class="contador ">
+                                    <div> fantasia </div>
+                                </div>
+                            </div>
+                        </button>
+
+                        <button class="btn-selecao" onclick=" mudarclass(1)">
+                            <div>
+                                <div class="contador ">
+                                    <div> comico </div>
+                                </div>
+                            </div>
+                        </button>
+
+                    </div>
                 </div>
 
             </div>
 
-            <div class="flex-conteiner-row" id="botoes-de-selecao ">
-
-                <button class="btn-selecao" onclick=" mudarclass(0)">
-                    <div>
-                        <div class="contador ">
-                            <div> fantasia </div>
-                        </div>
-                    </div>
-                </button>
-
-                <button class="btn-selecao" onclick=" mudarclass(1)">
-                    <div>
-                        <div class="contador ">
-                            <div> comico </div>
-                        </div>
-                    </div>
-                </button>
-
-            </div>
         </section>
         <footer>
             <p> &copy;Guilherme Henrique Siqueira Lopes </p>
