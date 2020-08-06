@@ -1,15 +1,3 @@
-section {
-    min-height: 43vh;
-}
-
-#sugestao-conteiner {
-    height: 50vh;
-}
-
-.btn-refaser {
-    width: 60%;
-}
-
 .btn-selecao {
     width: 50%;
     padding: 8% 10% 8% 10%;
