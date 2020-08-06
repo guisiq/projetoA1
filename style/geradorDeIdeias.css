@@ -2,19 +2,6 @@ section {
     min-height: 43vh;
 }
 
-.flex-conteiner-colun {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-conteiner-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 #sugestao-conteiner {
     height: 50vh;
 }
