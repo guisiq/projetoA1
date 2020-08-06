@@ -20,9 +20,26 @@
         float: none;
         width: 100%;
     }
+    h2 {
+        text-align: left;
+    }
+    blockquote {
+        width: 75%;
+        margin-right: 2%;
+    }
+    p.pre-citacao {
+        float: none;
+        width: 100%
+    }
+    li p {
+        margin: 0% 2% 0% -2%;
+    }
+    section ul {
+        margin: 0% 0% 0% -6%;
+    }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     nav ul li {
         float: left;
         clear: both;
