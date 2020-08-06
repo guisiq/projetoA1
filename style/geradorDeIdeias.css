@@ -1,0 +1,31 @@
+section {
+    min-height: 43vh;
+}
+
+.flex-conteiner-colun {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-conteiner-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sugestao-conteiner {
+    height: 50vh;
+}
+
+.btn-refaser {
+    width: 60%;
+}
+
+.btn-selecao {
+    width: 25%;
+    text-align: center;
+}
+
+#botoes-de-selecao {}

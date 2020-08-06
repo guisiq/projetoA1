@@ -9,7 +9,8 @@
     <!--<link rel="stylesheet" href="style/reset.css">-->
     <link rel="stylesheet" href="style/sitehome.css ">
     <link rel="stylesheet" href="style/fundoSitehome.css">
-    <link rel="stylesheet" href="style/CEELsitehome.css">
+    <link rel="stylesheet" href="style/CEELsitehome.css"> l
+    <link rel="stylesheet" href="style/geradorDeIdeias.css">
 </head>
 
 <body>
@@ -45,18 +46,32 @@
 
     <main>
         <section>
-            <div>
-                <span id="sugenstao "> </span>
-                <div class=" btn refaser "> refaser sugenstao</div>
-            </div>
-            <div>
-                <div>
-                    <div class="contador ">
-                        <div class="btn plus"></div>
-                        <div class="btn menos "></div>
-                    </div>
-                    atributo
+            <div class="flex-conteiner-row" id="sugestao-conteiner">
+                <div class="flex-conteiner-colun">
+                    <p class="sugestao "> <span class="aaaa"></span> <span class="aaa"></span> <span class="aa"></span> </p>
+                    <button type="button" class=" btn-refaser " onclick="sortearPersonagem()"> refaser sugenstao</button>
                 </div>
+
+            </div>
+
+            <div class="flex-conteiner-row" id="botoes-de-selecao ">
+
+                <button class="btn-selecao" onclick=" mudarclass(0)">
+                    <div>
+                        <div class="contador ">
+                            <div> fantasia </div>
+                        </div>
+                    </div>
+                </button>
+
+                <button class="btn-selecao" onclick=" mudarclass(1)">
+                    <div>
+                        <div class="contador ">
+                            <div> comico </div>
+                        </div>
+                    </div>
+                </button>
+
             </div>
         </section>
         <footer>

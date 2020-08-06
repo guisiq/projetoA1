@@ -9,10 +9,16 @@ function getArrayRandomElement(arr) {
     }
     // The undefined will be returned if the empty array was passed
 }
+let divisao = getArrayRandomElement([0, 1]);
 
-function sortearPersonagem(a) {
-    let divisao = getArrayRandomElement([0, 1]);
+function mudarclass(a) {
+    divisao = a;
+    sortearPersonagem();
+}
 
+function sortearPersonagem() {
+
+    divisao = getArrayRandomElement([0, 1]);
     if (divisao === 0) {
         // comico 
         console.log('comico')
@@ -58,5 +64,6 @@ function sortearPersonagem(a) {
         console.log('')
 
     }
+    document.querySelector('.sugestao').textContent = ` ${especie} ${ocupacao} ${atributo} ${asesorio}`
 }
 sortearPersonagem();
