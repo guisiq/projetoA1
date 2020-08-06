@@ -64,6 +64,5 @@ function sortearPersonagem() {
         console.log('')
 
     }
-    document.querySelector('.sugestao').textContent = ` ${especie} ${ocupacao} ,${atributo} ,${asesorio}`
+    document.querySelector('.sugestao').textContent = ` ${especie} ${ocupacao} ${atributo} ${asesorio}`
 }
-sortearPersonagem();
